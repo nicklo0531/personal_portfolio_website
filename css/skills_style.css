@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+
+.name {
+    font-family: "Lobster", sans-serif;
+}
+
+/* body */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(245, 238, 227);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.skip a {
+    position: absolute;
+    top: -40px;
+    background-color: #ffffff;
+}
+
+.skip a:focus {
+    top: 8px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.name {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #000000;
+}
+
+.active {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#index_list a:hover, #milestone_list a:hover, #skills_list a:hover {
+    color: #808080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* desktop view */
+@media (min-width: 1000px) {
+    .name {
+        font-size: 250%;
+    }
+
+    #index_list a, #milestone_list a, #skills_list a {
+        font-size: 150%;
+    }
+
+
+}

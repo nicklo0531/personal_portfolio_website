@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* body */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(245, 238, 227);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* nav */
+nav,
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.name {
+    font-weight: bold;
+    font-size: 270%;
+}
+
+/* profile */
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+  
+.section-container {
+    display: flex;
+}
+
+/* profile */
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+  
+/* #section_pic_container {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+} */
+  
+#section_pic_container img {
+    border-radius: 100%;
+}
+  
+/* section text */
+#section_text {
+    align-self: center;
+    text-align: center;
+    max-width: 500px;
+}
+  
+#section_text p {
+    font-weight: 600;
+}
+  
+#section_text1 {
+    text-align: center;
+    font-size: 120%;
+}
+  
+#section_text2 {
+    font-size: 120%;
+}
+  
+#section_text3 {
+    font-size: 100%;
+    color: #555;
+}
+  
+/* title */
+.title {
+    font-size: 300%;
+    font-weight: 500;
+    text-align: center;
+    color: #222;
+}
+
+/* buttons */
+.button_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+  
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(53, 53, 53);
+    background-color: transparent;
+    color: #000000;
+}
+  
+.btn:hover {
+    background: #808080;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* icons */
+#socials_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+  }
+  
+.icon {
+    cursor: pointer;
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+  
+.icon:hover {
+    transform: scale(1.2);
+}
+  
+
+  
+
+
+
+
+
+
+
+
+
+#fun_facts_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    max-width: 75%;
+    max-height: 500px;
+    padding: 1%;
+}
+
+#fun_facts_container p {
+    font-size: 120%;
+}
+
+

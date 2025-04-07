@@ -4,21 +4,106 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/index_style.css">
 
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <title>Kuang-Yu (Nick) Lo</title>
     </head>
-
     <body>
-        
+        <div class="skip"><a href="#main" tabindex="0">Skip to Main Content</a></div>
+        <nav id="nav">
+            <div class="name">Kuang-Yu (Nick) Lo</div>
+            <div>
+                <ul class="nav-links">
+                    <li id="index_list"><a href="index.html" class="active">Introduction</a></li>
+                    <li id="milestone_list"><a href="timeline.html">Timeline</a></li>
+                    <li id="skills_list"><a href="skills.html">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <main id="main">
+        <section id="profile">
+            <div id="section_pic_container">
+                <img src="img/profile-pic.png" alt="Nick profile pic">
+            </div>
+
+            <div id="section_text">
+                <p id="section_text1">Hello I'm</p>
+                <h1 class="title">Kuang-Yu (Nick) Lo</h1>
+                <p id="section_text2">Data Science Student at the University of Michigan</p>
+                <p id="section_text3">Interested in machine learning and cybersecurity</p>
+                <p id="section_text4">Objective: looking for data science/data engineering roles</p>
+
+                <div class="button_container">
+                    <button class="btn" onclick="window.open('assets/resume_kuang_yu_lo_DS.pdf', '_blank')">
+                    Download CV</button>
+                    <button class="btn" onclick="window.open('mailto:lonick@umich.edu', '_blank')">
+                    Email Me</button>
+                </div>
+
+                <div id="socials_container">
+                    <a href="https://www.linkedin.com/in/kuang-yu-lo/" target="_blank">
+                      <img src="img/linkedin.png" alt="My LinkedIn Profile" class="icon">
+                    </a>
+                    <a href="https://github.com/nicklo0531" target="_blank">
+                      <img src="img/github.png" alt="My GitHub Profile" class="icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+            
+
+        <div id="fun_facts_container">
+            <!-- <p>Some fun facts about me:</p> -->
+                <div class="fun_facts">
+                    <img src="img/chilling.JPG" alt="me sitting on the grass in a park">
+                    <p>I am from Taiwan 🇹🇼</p>
+                </div>
+
+                <div class="fun_facts">
+                    <img src="img/mycats.jpg" alt="my two cats">
+                    <p>These are my siblings: Zai-Zai 🐈 and Doo-Doo 🐈</p>
+                </div>
+
+                <div class="fun_facts">
+                    <img src="img/working_out.JPG" alt="me pushing 2 plates">
+                    <p>I enjoy boxing and working out, and I just hit 2 plates 🏋️</p>
+                </div>
+
+                <div class="fun_facts">
+                    <img src="img/cooking.JPG" alt="the lamb shanks I made for my friends">
+                    <p>I love cooking for my friends and family 🧑‍🍳</p>
+                </div>
+
+                <!-- <div class="fun_facts">
+                    <img src="img/chromakopia.jpg" alt="the Tyler the Creator concert I went to">
+                    <p>My favorite artists are Tyler the Creator, Dominic Fike and Omar Apollo</p>
+                </div> -->
+        </div>
+
+        <div id="skills_container">
+            <div id="hard_skills">
+                <p>Hard Skills</p>
+                <img src="img/plot1.jpg" alt="a bar plot showing my hard skills" id="hard_skills_img">
+            </div>
+
+            <div id="soft_skills">
+                <p>Soft Skills</p>
+                <img src="img/plot2.png" alt="a bar plot showing my soft skills" id="soft_skills_img">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; Copyrights <span id="year"></span> by Kuang-Yu Lo. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').innerHTML = new Date().getFullYear();
+    </script>
+
     </body>
-
-
-
-
-
-
-
 
 </html>
