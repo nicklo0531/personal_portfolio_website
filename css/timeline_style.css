@@ -3,7 +3,7 @@
 
 .name {
     font-family: "Lobster", sans-serif;
-    font-size: 125%;
+    font-size: 110%;
     font-weight: bold;
 }
 
@@ -58,7 +58,6 @@ html {
 #index_list a:hover, #milestone_list a:hover, #skills_list a:hover {
     color: #808080;
 }
-
 
 
 /* Referenced from: https://www.w3schools.com/howto/howto_css_timeline.asp */
@@ -158,7 +157,7 @@ html {
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
+  padding: 5% 10%;
   background-color: white;
   position: relative;
   border-radius: 6px;
@@ -166,10 +165,16 @@ html {
 
 .hidden {
   display: none;
+  font-size: 50%;
 }
 
 .role {
   font-weight: 500;
+  font-size: 80%;
+}
+
+.date {
+  font-size: 60%;
 }
 
 li {
@@ -191,14 +196,14 @@ footer {
 }
 
 .content h2 {
-  font-size: 120%;
+  font-size: 100%;
   font-weight: 500;
 }
 
 #note {
   border: 1px solid #000;
   display: inline-block;
-  font-size: 50%;
+  font-size: 20%;
   padding: 1px;
 }
 
@@ -240,6 +245,23 @@ footer {
       border: 1px solid #000;
       display: inline-block;
       padding: 4px;
+      font-size: 100%;
+    }
+
+    .role {
+      font-size: 120%;
+    }
+
+    .content h2 {
+      font-size: 150%;
+    }
+
+    .date {
+      font-size: 100%;
+    }
+
+    .hidden {
+      display: none;
       font-size: 100%;
     }
 }
