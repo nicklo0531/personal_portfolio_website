@@ -96,6 +96,10 @@ html {
   z-index: 1;
 }
 
+/* .container:first-of-type {
+  padding-bottom: 10%;
+} */
+
 /* The circles on the timeline */
 .container::after {
   content: '';
@@ -113,13 +117,13 @@ html {
 /* Place the container to the left */
 .left {
   left: 0;
-  transform: translateX(-1.5%);
+  transform: translateX(-2.5%);
 }
 
 /* Place the container to the right */
 .right {
   left: 50%;
-  transform: translateX(0.5%);
+  transform: translateX(1.5%);
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -209,6 +213,8 @@ footer {
 
 #note_div {
   padding-left: 5%;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 
@@ -263,5 +269,12 @@ footer {
     .hidden {
       display: none;
       font-size: 100%;
+    }
+
+    .content {
+      padding: 2% 5%;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
     }
 }
