@@ -23,6 +23,18 @@
         </nav>
 
     <main id="main">
+
+        <div class="page-wrapper">
+            <h1>Skills (refresh page to reorder!)</h1>
+            <div id="color_picker_div">
+                <label for="colorPicker">Choose a background color:</label>
+                <input type="color" id="colorPicker" value="#0d1b2a">
+            </div>
+            <div class="bubble-box">
+              <div class="bubble-container" id="bubbleContainer"></div>
+            </div>
+        </div>
+        
     
     
     </main>
@@ -34,6 +46,8 @@
     <script>
         document.getElementById('year').innerHTML = new Date().getFullYear();
     </script>
+
+    <script src="js/skills.js"></script>
 
     </body>
 

@@ -123,7 +123,7 @@ html {
 /* Place the container to the right */
 .right {
   left: 50%;
-  transform: translateX(1%);
+  transform: translateX(0.5%);
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -168,9 +168,43 @@ html {
 }
 
 
+.hidden {
+  display: none;
+}
+
+.role {
+  font-weight: 500;
+}
+
+li {
+  line-height: 150%;
+}
+
+.visible {
+  display: list-item;
+}
+
+img {
+  width: 75%;
+}
+
+
+
+
 footer {
     padding-top: 10px;
     text-align: center;
+}
+
+.content h2 {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+#note {
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 4px;
 }
 
 /* desktop view */
@@ -193,16 +227,18 @@ footer {
     
     .left {
         left: 0;
-        transform: translateX(10%);
+        transform: translateX(10.5%);
     }
 
     .right {
         left: 50%;
-        transform: translateX(1%);
+        transform: translateX(0.5%);
     }
 
 
 }
+
+
 
 
 
