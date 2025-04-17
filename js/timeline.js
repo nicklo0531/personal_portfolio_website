@@ -34,6 +34,20 @@ allContainers.forEach((container) => {
     });
 });
 
+allContainers.forEach((container) => {
+    container.addEventListener('keydown', function () {
+        let hiddenItems = container.querySelectorAll('.hidden');
+
+        hiddenItems.forEach(item => {
+            if (item.style.display === 'block') {
+                item.style.display = 'none';
+            } else {
+                item.style.display = 'block';
+            }
+        });
+    });
+});
+
 
 
 // the list bullets are gone
